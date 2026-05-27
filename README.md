@@ -1,3 +1,4 @@
+<<<<<< everton/fase-1
 # Bot de Vendas — Telegram
 
 Bot de e-commerce simples para Telegram usando Python e PostgreSQL.
@@ -38,3 +39,30 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+======
+# Telegram E-commerce Bot
+
+Projeto de extensão acadêmico desenvolvido utilizando Python e Telegram Bot API.
+
+## Integrantes
+- Everton Juan
+- Luan Felipe
+- Otávio Vinicius
+
+## Tecnologias
+- Python
+- Aiogram
+- FastAPI
+- PostgreSQL
+- Docker
+
+## Funcionalidades
+- Catálogo de produtos
+- Carrinho de compras
+- Checkout
+- Rastreamento
+- Atendimento automatizado
+
+## Objetivo
+Automatizar processos de vendas utilizando bots inteligentes no Telegram.
+>>>>>> main
