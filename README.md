@@ -5,7 +5,7 @@ Projeto de extensão acadêmico desenvolvido utilizando Python e Telegram Bot AP
 ## Integrantes
 - Everton Juan
 - Luan Felipe
-- Outro integrante
+- Otávio Vinicius
 
 ## Tecnologias
 - Python
