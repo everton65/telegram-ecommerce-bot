@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
-from telegram.ext import ApplicationBuilder, CommandHandler
-from bot.handlers import start, produtos, pedido, status
+from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler
+from bot.handlers import start, produtos, pedido, status, button_handler
 
 load_dotenv()
 
@@ -13,6 +13,7 @@ def main():
     app.add_handler(CommandHandler("produtos", produtos))
     app.add_handler(CommandHandler("pedido", pedido))
     app.add_handler(CommandHandler("status", status))
+    app.add_handler(CallbackQueryHandler(button_handler))
 
     print("Bot rodando...")
     app.run_polling()
