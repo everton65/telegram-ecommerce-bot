@@ -1,4 +1,3 @@
-<<<<<< everton/fase-1
 # Bot de Vendas — Telegram
 
 Bot de e-commerce simples para Telegram usando Python e PostgreSQL.
