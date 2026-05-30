@@ -19,3 +19,12 @@ CREATE TABLE IF NOT EXISTS pedidos (
     status VARCHAR(50) DEFAULT 'pendente',
     criado_em TIMESTAMP DEFAULT NOW()
 );
+
+CREATE TABLE IF NOT EXISTS promocoes (
+    id SERIAL PRIMARY KEY,
+    produto VARCHAR(200) NOT NULL,
+    preco NUMERIC(10,2) NOT NULL,
+    loja VARCHAR(100) NOT NULL,
+    link TEXT,
+    criado_em TIMESTAMP DEFAULT NOW()
+);
